@@ -11,23 +11,13 @@ using namespace std;
 //#define LINENUMS 25
 //unsigned int infos[LINENUMS] = {0};
 
-void printInfos( );
-
 int main()
 {       
 	int num = 1;
 	for( int i = 0; i < 10; ++ i ) {
+		num ++;
 	}
 	printInfos();
 	return 0;
 }
 
-
-void printInfos( )
-{
-	cout << "NO\tCount" << endl;
-	for( int i = 0; i < LINENUMS; ++i ) {
-		cout << i + 1 << "\t" << infos[i] << endl;
-	}
-	cout << endl;
-}
